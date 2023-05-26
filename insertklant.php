@@ -10,8 +10,8 @@ if(isset($_POST["insert"]) && $_POST["insert"] == "Toevoegen"){
 		$klant->insertklant2($_POST['klantnaam'], $_POST['klantemail'], $_POST['klantadres'], $_POST['klantpostcode'], $_POST['klantWoonplaats']);
 			
 
-		//echo "<script>alert('klant: $_POST['klantnaam'] $_POST['klantemail'] $_POST['klantadres'] $_POST['klantpostcode'] $_POST['klantWoonplaats'] is toegevoegd')</script>";
-		//echo "<script> location.replace('index.php'); </script>";
+		echo "<script>alert('klant: $_POST[klantnaam] $_POST[klantemail] $_POST[klantadres] $_POST[klantpostcode] $_POST[klantWoonplaats] is toegevoegd')</script>";
+		echo "<script> location.replace('index.php'); </script>";
 			
 	} 
 
